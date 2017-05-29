@@ -15,6 +15,7 @@
 		63A85C6C1EDBF79300DF43ED /* still time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63A85C6B1EDBF79300DF43ED /* still time.ttf */; };
 		63A85C6F1EDBF91100DF43ED /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A85C6E1EDBF91100DF43ED /* VideoVC.swift */; };
 		63A85C711EDBFAC500DF43ED /* PartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A85C701EDBFAC500DF43ED /* PartyCell.swift */; };
+		63A85C731EDBFC9400DF43ED /* PartyRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A85C721EDBFC9400DF43ED /* PartyRock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		63A85C6B1EDBF79300DF43ED /* still time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "still time.ttf"; path = "../still time.ttf"; sourceTree = "<group>"; };
 		63A85C6E1EDBF91100DF43ED /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
 		63A85C701EDBFAC500DF43ED /* PartyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyCell.swift; sourceTree = "<group>"; };
+		63A85C721EDBFC9400DF43ED /* PartyRock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyRock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		63A85C6A1EDBE7C000DF43ED /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				63A85C721EDBFC9400DF43ED /* PartyRock.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63A85C6F1EDBF91100DF43ED /* VideoVC.swift in Sources */,
+				63A85C731EDBFC9400DF43ED /* PartyRock.swift in Sources */,
 				63A85C591EDBE6E500DF43ED /* MainVC.swift in Sources */,
 				63A85C711EDBFAC500DF43ED /* PartyCell.swift in Sources */,
 				63A85C571EDBE6E500DF43ED /* AppDelegate.swift in Sources */,
