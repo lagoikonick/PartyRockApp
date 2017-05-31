@@ -20,14 +20,21 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         override func viewDidLoad() {
         super.viewDidLoad()
         
-            let p1 = PartyRock(imageURL: "https://i.iheart.com/v3/url/Ly9tZWRpYS5paGVhcnQuY29tL2NjLWNvbW1vbi9tbGliLzIxMzUvMjAxNi8wMy9kZWZhdWx0L3JlZGZvb18wXzE0NTgyMzIxMDguanBn", videoURL: "<iframe src=\"https://www.youtube-nocookie.com/embed/tWyuglGCKgE?rel=0&amp;showinfo=0?ecver=2\" width=\"640\" height=\"360\" frameborder=\"0\" style=\"position:absolute;width:100%;height:100%;left:0\" allowfullscreen>", videoTitle: "Redfoo - Juicy Wiggle (Official Video)")
+            let p1 = PartyRock(imageURL: "https://pp.userapi.com/c621829/v621829894/37076/RsNGgEtiC1Y.jpg", videoURL: "<iframe src=\"https://www.youtube-nocookie.com/embed/tWyuglGCKgE?rel=0&amp;showinfo=0?ecver=2\" width=\"640\" height=\"360\" frameborder=\"0\" style=\"position:absolute;width:100%;height:100%;left:0\" allowfullscreen>", videoTitle: "Redfoo - Juicy Wiggle (Official Video)")
+            let p2 = PartyRock(imageURL: "https://pp.userapi.com/c626618/v626618894/4e185/3QGyk5jsgSg.jpg", videoURL: "<iframe src=\"https://www.youtube-nocookie.com/embed/tWyuglGCKgE?rel=0&amp;showinfo=0?ecver=2\" width=\"640\" height=\"360\" frameborder=\"0\" style=\"position:absolute;width:100%;height:100%;left:0\" allowfullscreen>", videoTitle: "Redfoo - Juicy Wiggle (Official Video)")
+            let p3 = PartyRock(imageURL: "https://pp.userapi.com/c626618/v626618894/4e185/3QGyk5jsgSg.jpg", videoURL: "<iframe src=\"https://www.youtube-nocookie.com/embed/tWyuglGCKgE?rel=0&amp;showinfo=0?ecver=2\" width=\"640\" height=\"360\" frameborder=\"0\" style=\"position:absolute;width:100%;height:100%;left:0\" allowfullscreen>", videoTitle: "Redfoo - Juicy Wiggle (Official Video)")
+            let p4 = PartyRock(imageURL: "https://pp.userapi.com/c631420/v631420894/12cd7/KoECW4_PrVQ.jpg", videoURL: "<iframe src=\"https://www.youtube-nocookie.com/embed/tWyuglGCKgE?rel=0&amp;showinfo=0?ecver=2\" width=\"640\" height=\"360\" frameborder=\"0\" style=\"position:absolute;width:100%;height:100%;left:0\" allowfullscreen>", videoTitle: "Redfoo - Juicy Wiggle (Official Video)")
+            let p5 = PartyRock(imageURL: "https://pp.userapi.com/c621829/v621829894/37076/RsNGgEtiC1Y.jpg", videoURL: "<iframe src=\"https://www.youtube-nocookie.com/embed/tWyuglGCKgE?rel=0&amp;showinfo=0?ecver=2\" width=\"640\" height=\"360\" frameborder=\"0\" style=\"position:absolute;width:100%;height:100%;left:0\" allowfullscreen>", videoTitle: "Redfoo - Juicy Wiggle (Official Video)")
+           
             
             partyRocks.append(p1)
+            partyRocks.append(p2)
+            partyRocks.append(p3)
+            partyRocks.append(p4)
+            partyRocks.append(p5)
             
-
             
-            
-            
+             
             
         tableView.delegate = self
         tableView.dataSource = self
